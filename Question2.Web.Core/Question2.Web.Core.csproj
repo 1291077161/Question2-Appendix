@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<NoWarn>1701;1702;1591</NoWarn>
+		<DocumentationFile>Question2.Web.Core.xml</DocumentationFile>
+	</PropertyGroup>
+
+
+
+	<ItemGroup>
+		<None Remove="Question2.Web.Core.xml" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Question2.Application\Question2.Application.csproj" />
+		<ProjectReference Include="..\Question2.Database.Migrations\Question2.Database.Migrations.csproj" />
+	</ItemGroup>
+
+</Project>

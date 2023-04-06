@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Question2.Application</name>
+    </assembly>
+    <members>
+        <member name="M:emmm.Application.System.Controllers.NormalUserAppService.saveUserInfoInRedis(emmm.Application.System.Dtos.EmailUserInRedis)">
+            <summary>
+            获取redis中用户的数量
+            </summary>
+        </member>
+        <member name="T:Question2.Application.SystemAppService">
+            <summary>
+            系统服务接口
+            </summary>
+        </member>
+        <member name="M:Question2.Application.SystemAppService.GetDescription">
+            <summary>
+            获取系统描述
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
